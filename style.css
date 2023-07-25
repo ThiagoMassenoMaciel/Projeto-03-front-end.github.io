@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+
+  background: #D9D9D9;
+}
+
+body::before{
+  content: '';
+  
+  width : 1440px;
+  height: 368px;
+
+  background: #121214;
+
+  position: absolute;
+  top: 0;
+  
+  z-index: -1 ;
+}
+
+form{
+  background: #FAFAFC;
+  padding: 64px;
+}
+
+
+header{
+  width: 319px;
+  height: 160px;
+
+  margin-bottom: 42px;
+}
+
+header h1, fieldset legend{
+  font-family: 'Archivo', sans-serif;
+}
+
+header p , legend label{
+  font-family: 'Poppins', sans-serif;
+}
+
+header h1{
+  color: #FFF;
+
+  margin-bottom: 24px;
+
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42px;
+
+}
+
+header p{
+  color: #42D3FF; 
+
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+#page{
+  width: 736px;
+
+  margin: 0 auto;
+}
+
+form fieldset{
+  padding: 0;
+  margin: 0px;
+
+  border: none;
+}
+
+form fieldset legend{
+  color: #32264d;
+
+  padding-bottom: 16px;
+
+}
+
+#separador{
+  height: 2px;
+  width: 608px;
+  background-color: #E6E6F0;
+}
+
+form fieldset legend label{
+  color: #4E4958;
+
+  display: flex;
+  flex-direction: column ;
+
+  margin: 24px auto 10px;
+
+}
+
+form fieldset legend label span{
+  color: #C1BCCC;
+
+  font-size: 12px;
+}

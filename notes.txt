@@ -1,0 +1,10 @@
+Porque eu n consegui colocar border-bottom: 1px solid #001122 ? tive que criar uma di separadapra fazer dar certo
+
+Havia colocado o ::before no body - n aparecia pois eu n tinha definido qual era o display do ::beforeou sua position absolute 
+
+Erro - n fiz de um por um 
+     - acher que tem tempo para tentar relembrar sozinho 
+
+FORMULA cada video assistido + faz + anota o que fez 
+
+[fontes utilizadas](https://fonts.google.com/share?selection.family=Archivo:wght@700%7CPoppins:wght@400;600)
